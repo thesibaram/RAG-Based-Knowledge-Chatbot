@@ -1,0 +1,26 @@
+# Core dependencies
+langchain==0.3.13
+langchain-core==0.3.28
+langchain-community==0.3.13
+langchain-chroma==0.1.4
+langchain-google-genai==2.0.8
+
+# Vector store and embeddings
+chromadb==0.5.23
+google-generativeai==0.8.3
+
+# Web interface
+gradio==5.7.1
+
+# Data processing
+pandas==2.2.3
+numpy==2.2.1
+matplotlib==3.10.0
+
+# Utilities
+python-dotenv==1.0.1
+
+# Optional development tools
+ipykernel==6.29.5
+jupyter==1.1.1
+notebook==7.3.2

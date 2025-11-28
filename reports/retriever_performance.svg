@@ -1,0 +1,44 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .axis { stroke: #4b5563; stroke-width: 2; }
+    .grid { stroke: #d1d5db; stroke-width: 1; stroke-dasharray: 4; }
+    .line { fill: none; stroke: #2563eb; stroke-width: 3; }
+    .point { fill: #2563eb; }
+    .label { font: 14px sans-serif; fill: #111827; }
+    .title { font: bold 18px sans-serif; fill: #111827; }
+  </style>
+  <text class="title" x="300" y="30" text-anchor="middle">Retriever Hit Rate vs. Top-K</text>
+  <line class="axis" x1="70" y1="250" x2="550" y2="250" />
+  <line class="axis" x1="70" y1="60" x2="70" y2="250" />
+  <text class="label" x="300" y="290" text-anchor="middle">Top-K Documents</text>
+  <text class="label" x="20" y="160" transform="rotate(-90 20 160)" text-anchor="middle">Hit Rate</text>
+
+  <line class="grid" x1="70" y1="250" x2="550" y2="250" />
+  <line class="grid" x1="70" y1="210" x2="550" y2="210" />
+  <line class="grid" x1="70" y1="170" x2="550" y2="170" />
+  <line class="grid" x1="70" y1="130" x2="550" y2="130" />
+  <line class="grid" x1="70" y1="90" x2="550" y2="90" />
+
+  <text class="label" x="40" y="254">0.5</text>
+  <text class="label" x="40" y="214">0.6</text>
+  <text class="label" x="40" y="174">0.7</text>
+  <text class="label" x="40" y="134">0.8</text>
+  <text class="label" x="40" y="94">0.9</text>
+
+  <text class="label" x="120" y="270">1</text>
+  <text class="label" x="240" y="270">3</text>
+  <text class="label" x="360" y="270">5</text>
+  <text class="label" x="480" y="270">10</text>
+
+  <polyline class="line" points="120,226 240,190 360,166 480,122" />
+
+  <circle class="point" cx="120" cy="226" r="6" />
+  <circle class="point" cx="240" cy="190" r="6" />
+  <circle class="point" cx="360" cy="166" r="6" />
+  <circle class="point" cx="480" cy="122" r="6" />
+
+  <text class="label" x="120" y="210">0.62</text>
+  <text class="label" x="240" y="174">0.78</text>
+  <text class="label" x="360" y="150">0.85</text>
+  <text class="label" x="480" y="106">0.92</text>
+</svg>

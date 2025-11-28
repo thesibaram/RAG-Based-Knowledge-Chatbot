@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  rag-chatbot:
+    build: .
+    container_name: hospital-review-chatbot
+    ports:
+      - "7860:7860"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+    restart: unless-stopped

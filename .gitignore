@@ -1,0 +1,57 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+*.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Data and artifacts
+artifacts/
+chroma_data/
+storage/
+
+# Keep the raw data but ignore any temporary processing files
+data/processed/
+data/temp/
+
+# Gradio temp files
+gradio_cached_examples/

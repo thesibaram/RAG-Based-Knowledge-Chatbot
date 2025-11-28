@@ -1,0 +1,34 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill: #1f77b4; stroke: #0b3954; stroke-width: 2; }
+    .text { font: 16px sans-serif; fill: #ffffff; text-anchor: middle; dominant-baseline: middle; }
+    .arrow { stroke: #4b5563; stroke-width: 2; }
+  </style>
+  <rect class="box" x="30" y="70" width="120" height="60" rx="8"/>
+  <text class="text" x="90" y="100">Data Loader</text>
+
+  <rect class="box" x="190" y="70" width="140" height="60" rx="8"/>
+  <text class="text" x="260" y="95">Batch</text>
+  <text class="text" x="260" y="115">Embeddings</text>
+
+  <rect class="box" x="370" y="70" width="120" height="60" rx="8"/>
+  <text class="text" x="430" y="100">ChromaDB</text>
+
+  <rect class="box" x="530" y="70" width="120" height="60" rx="8"/>
+  <text class="text" x="590" y="95">RAG</text>
+  <text class="text" x="590" y="115">Chain</text>
+
+  <rect class="box" x="690" y="70" width="120" height="60" rx="8"/>
+  <text class="text" x="750" y="100">Gradio UI</text>
+
+  <line class="arrow" x1="150" y1="100" x2="190" y2="100" marker-end="url(#arrowhead)"/>
+  <line class="arrow" x1="330" y1="100" x2="370" y2="100" marker-end="url(#arrowhead)"/>
+  <line class="arrow" x1="490" y1="100" x2="530" y2="100" marker-end="url(#arrowhead)"/>
+  <line class="arrow" x1="650" y1="100" x2="690" y2="100" marker-end="url(#arrowhead)"/>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4b5563" />
+    </marker>
+  </defs>
+</svg>
